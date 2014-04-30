@@ -1,4 +1,7 @@
 language: go
-
+go: 1.2
+script: go test ./...
 install:
+  - go get code.google.com/p/go.net/html
+  - go get github.com/PuerkitoBio/goquery
   - go get github.com/pilu/miniassert
