@@ -1,3 +1,9 @@
+/*
+Feedfinder discovers feed links on web pages.
+Usage:
+
+	feedfinder PAGE_URL
+*/
 package main
 
 import (

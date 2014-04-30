@@ -1,3 +1,6 @@
+/*
+Package feedfinder - autodiscovers feed url on web pages.
+*/
 package feedfinder
 
 import (
@@ -10,7 +13,8 @@ import (
 	"code.google.com/p/go.net/html"
 )
 
-// A FeedLink represents the link tag with it's main attributes, Type, Href and Title.
+// A FeedLink represents the link tag with it's main attributes, Type, Href, Title and URL.
+// The URL is always absolute, and it's based on the page's URL if the Href attribute is relative.
 type FeedLink struct {
 	Type  string
 	Href  string
