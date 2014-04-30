@@ -1,5 +1,7 @@
 language: go
-go: 1.2
+go:
+  - 1.2
+  - tip
 script: go test ./...
 install:
   - go get code.google.com/p/go.net/html
