@@ -4,6 +4,4 @@ go:
   - tip
 script: go test ./...
 install:
-  - go get code.google.com/p/go.net/html
-  - go get github.com/PuerkitoBio/goquery
-  - go get github.com/pilu/miniassert
+  - go get -i
