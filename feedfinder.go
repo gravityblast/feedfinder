@@ -10,7 +10,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 
-	"code.google.com/p/go.net/html"
+	"golang.org/x/net/html"
 )
 
 // A FeedLink represents the link tag with it's main attributes, Type, Href, Title and URL.
